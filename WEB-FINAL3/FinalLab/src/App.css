@@ -1,0 +1,168 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header-ul li {
+  margin: 0 10px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.block-rocket {
+  display: flex;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.img-rocket {
+  flex: 1;
+}
+
+.pic {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-rocket {
+  flex: 2;
+  padding: 0 10px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.reserve {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #ff6666;
+  color: white;
+}
+
+.reserve:hover,
+.cancel:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table-box {
+  box-sizing: border-box;
+}
+
+.white {
+  background-color: white;
+}
+
+.thwidth {
+  width: 20%;
+}
+
+.th-two {
+  width: 40%;
+}
+
+.th-three {
+  width: 20%;
+}
+
+.th-four {
+  width: 20%;
+}
+
+.bax {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+.table-box th, .table-box td {
+  padding: 8px;
+  text-align: left;
+}
+
+.but-inactive {
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: not-allowed;
+}
+
+.but-active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.but-join {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.but-leave {
+  background-color: #ff6666;
+  color: white;
+}
+
+.but-join:hover,
+.but-leave:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.block-prof {
+  display: flex;
+  margin: 20px;
+}
+
+.rock-table {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.margin {
+  margin-right: 20px;
+}
+
+.roc-mis {
+  padding: 8px;
+}
+
+.span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #4caf50;
+}
