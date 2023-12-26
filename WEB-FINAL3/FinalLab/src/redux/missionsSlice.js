@@ -12,7 +12,7 @@ const missionsSlice = createSlice({
     list: [],
   },
   reducers: {
-    // Define your additional reducers here if needed
+
   },
   extraReducers: (builder) => {
     builder
